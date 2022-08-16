@@ -19,6 +19,7 @@ function onSearch (e) {
     cleanMarkup();
     const nameCountry = e.target.value.trim();
 
+
     if(nameCountry === ''){
         cleanMarkup()
         return; 
